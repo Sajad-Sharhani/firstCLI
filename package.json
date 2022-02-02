@@ -12,5 +12,13 @@
     "sajad sharhani",
     "sajad",
     "sharhani"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "Sajad-Sharhani/firstCLI",
+  "author": {
+    "name": "Sajad Sharhani",
+    "email": "sharhani.sajad@gmail.com",
+    "url": "https://twitter.com/SajadSharhani"
+  }
 }
