@@ -1,6 +1,6 @@
 {
   "name": "sajad",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get to know Sajad via `npx sajad`",
   "bin": {
     "sajad": "index.js"
