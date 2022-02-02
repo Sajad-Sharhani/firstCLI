@@ -1,6 +1,6 @@
 # `npx sajad`
 
-Get to know Sajad Sharhani using your command line with Node.js
+> Get to know Sajad Sharhani using your command line with Node.js
 
 ## Usage
 
