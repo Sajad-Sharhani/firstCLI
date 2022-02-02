@@ -1,0 +1,10 @@
+{
+  "name": "sajad",
+  "version": "1.0.0",
+  "bin": {
+    "sajad": "index.js"
+  },
+  "dependencies": {
+    "clear-any-console": "^1.16.2"
+  }
+}
