@@ -1,5 +1,6 @@
 {
   "name": "sajad",
+  "type": "module",
   "version": "2.1.0",
   "description": "Get to know Sajad via `npx sajad`",
   "bin": {
@@ -7,7 +8,8 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "cli-welcome": "^2.2.2"
+    "cli-welcome": "^2.2.2",
+    "log-symbols": "^5.1.0"
   },
   "keywords": [
     "sajad sharhani",
