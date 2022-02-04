@@ -1,7 +1,7 @@
 {
   "name": "sajad",
   "type": "module",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Get to know Sajad via `npx sajad`",
   "bin": {
     "sajad": "index.js"
