@@ -5,20 +5,24 @@ const checkNode = require("cli-check-node");
 const unhandled = require("cli-handle-unhandled");
 
 const pkgJSON = require("./../package.json");
+const log = console.log;
 
-export default () => {
+export default (minimal, clear) => {
   unhandled();
 
-  welcome({
-    title: `Sajad Sharhani`,
-    tagLine: `Get to know Sajad`,
-    description: pkgJSON.description,
-    version: pkgJSON.version,
-    bgColor: `#6937FF`,
-    color: `#000000`,
-    bold: true,
-    clear: true,
-  });
+  !minimal &&
+    welcome({
+      title: `Sajad Sharhani`,
+      tagLine: `Get to know Sajad`,
+      description: pkgJSON.description,
+      version: pkgJSON.version,
+      bgColor: `#6937FF`,
+      color: `#000000`,
+      bold: true,
+      clear,
+    });
+
+  minimal && log(`Sajad Sharhani`);
 
   checkNode("10");
 };

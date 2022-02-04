@@ -13,7 +13,8 @@
     "cli-handle-error": "^4.4.0",
     "cli-handle-unhandled": "^1.1.1",
     "cli-welcome": "^2.2.2",
-    "log-symbols": "^5.1.0"
+    "log-symbols": "^5.1.0",
+    "meow": "^10.1.2"
   },
   "keywords": [
     "sajad sharhani",
