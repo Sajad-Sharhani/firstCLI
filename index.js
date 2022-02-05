@@ -9,6 +9,7 @@ import init from "./utils/init.js";
 import debug from "./utils/debug.js";
 import { data } from "./utils/data.js";
 import { cli } from "./utils/cli.js";
+import stats from "./utils/stats.js";
 
 const input = cli.input;
 const flags = cli.flags;
@@ -20,6 +21,8 @@ const flags = cli.flags;
   flags.bio && log(data.bio);
   flags.social && log(data.social);
   flags.ad && alert({ type: "info", message: data.ad });
+
+  await stats();
 
   debug(flags.debug, cli);
 })();
